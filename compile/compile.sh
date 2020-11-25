@@ -17,5 +17,5 @@ elif [ $EXTENSION = "cpp" ]; then #Compile C++ programs
 elif [ $EXTENSION = "jar" ]; then #Execute jar files
     java -jar $FILE
 else
-    echo "Não foi encontrado script para essa EXTENSION"
+    echo "We could not compile this file..."
 fi
